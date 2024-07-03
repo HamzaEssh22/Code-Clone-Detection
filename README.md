@@ -1,35 +1,11 @@
 ﻿# Code-Clone-Detection
 
-the file Approche 1: 
-The file describe using USE to encode codes and use ML models to predict the label
-- Requirements : 
-	TesnorFlow
-	Numpy
-	Pandas
-	Matplotlib
-	Sklearn
+The document provides a comprehensive overview of the project and the approaches utilized.
 
-the file Approche 1 2: 
-The file describe using CodeBERT to encode codes and use ML models to predict the label
-- Requirements :
-	Transformers 
-	Torch
-	Numpy
-	Pandas
-	Matplotlib
-	Sklearn
+The README file outlines the packages used for each approach:
 
-the file Approche 3: 
-The file describe using Double CodeBERT as a Siamese neural network.
-- Requirements :
-	Transformers 
-	Torch
-	Numpy
-	Pandas
-	Matplotlib
-	Sklearn
+Approach 1: This method involves data preprocessing, code embedding using a pre-trained language model (CodeBERT), and training a machine learning classifier to predict code similarity.
 
-After installing the pakages, just run the notebooks and adjust the hyperparameters to have better results.
+Approach 2: This method includes data preprocessing, fine-tuning CodeBERT, and creating a neural network classifier. (Note: This approach does not yield satisfactory results.)
 
-
-Note : When using Transformers in the Approche 1 2 and the Approche 3, be sure to have a GPU and connected to run the code
+Approach 3: This method employs a Siamese Neural Network (SNN) based approach to detect code clones.
